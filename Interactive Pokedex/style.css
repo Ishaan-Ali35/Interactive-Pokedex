@@ -1,0 +1,171 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.content-left {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0px;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header {
+    margin-right: 290px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#pokemon-image {
+    height: 350px;
+    width: 350px;
+    padding: 1px;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#pokemon-name {
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 7%;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #E8E8E8;
+    text-align: center;
+}
+
+.Info-header {
+    font-family: sans-serif;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#info {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 350;
+    background-color: #E8E8E8;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    height: 455px;
+    width: 400px;
+}
+
+#types {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: -webkit-fill-available;
+}
+
+#types p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+#info p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+
+.left-buttons img {
+    height: 41px;
+    width: 41px;
+}
+
+button.left-button {
+    border-width: 0px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+
+button.right-button {
+    border-width: 0px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.info-button {
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 0px;
+    width: 121px;
+    height: 51px;
+    background-color:#7CFF79;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-right: 30px;
+}
+
+.info-button p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.moves-button {
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 0px;
+    width: 121px;
+    height: 51px;
+    background-color: E8E8E8;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.moves-button p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
